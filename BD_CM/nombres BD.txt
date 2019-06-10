@@ -1,0 +1,49 @@
+bscon=bienes y servicios de consumo
+
+nomc=nombre bien y servicio de consumo
+idc=id bien y servicio de consumo
+precioc= precio bien y servicio de consumo
+imgc= url imagen bien y servicio consumo 
+fuentec= fuente bien y servicio de cosumo
+fecsc= fecha scrapy bien y servicio de consumo
+fecswc=fecha sitio web bien y servicio de consumo
+
+
+
+
+bspub=bienes y servicios publicos
+
+nomp= nombre bien y servicio publico
+idp=id bien y servicio publico
+preciop= precio bien y servicio publico
+imgp= url imagen bien y servicio publico
+fuentep= fuente bien y servicio publico
+fecsp= fecha scrapy bien y servicio publico
+fecswp=fecha sitio web bien y servicio publico
+
+
+
+categoria
+
+idcat=id categoria
+nomcat=nombre categoria
+
+
+subcategoria
+
+idsubc=id sub categoria
+nomsc=nombre subcategoria
+
+
+
+pais
+
+idpais= id pais
+nompais= nombre pais
+
+region
+
+idreg= id region
+nomreg= nombre region
+
+
