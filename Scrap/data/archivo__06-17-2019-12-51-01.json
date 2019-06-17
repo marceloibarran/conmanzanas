@@ -1,0 +1,139 @@
+{
+    "Productos": [
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "La cerveza importada (33 cl) ",
+            "precio Peso Chileno": "1400,00$\n",
+            "precio Peso dolar": "1400,00$\n",
+            "precio Peso euro": "1400,00$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Cerveza nacional (0,5 litros) ",
+            "precio Peso Chileno": "1,99$\n",
+            "precio Peso dolar": "1,99$\n",
+            "precio Peso euro": "1,99$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Botella de Vino (Calidad media) ",
+            "precio Peso Chileno": "1,77€\n",
+            "precio Peso dolar": "1,77€\n",
+            "precio Peso euro": "1,77€\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Agua (1,5 litros) ",
+            "precio Peso Chileno": "950,00$\n",
+            "precio Peso dolar": "950,00$\n",
+            "precio Peso euro": "950,00$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Lechuga (1 unidad) ",
+            "precio Peso Chileno": "1,35$\n",
+            "precio Peso dolar": "1,35$\n",
+            "precio Peso euro": "1,35$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Cebollas (1kg)",
+            "precio Peso Chileno": "1,20€\n",
+            "precio Peso dolar": "1,20€\n",
+            "precio Peso euro": "1,20€\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Patatas (1 kg) ",
+            "precio Peso Chileno": "4000,00$\n",
+            "precio Peso dolar": "4000,00$\n",
+            "precio Peso euro": "4000,00$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Tomates (1 kg) ",
+            "precio Peso Chileno": "5,68$\n",
+            "precio Peso dolar": "5,68$\n",
+            "precio Peso euro": "5,68$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Naranjas (1 kg) ",
+            "precio Peso Chileno": "5,07€\n",
+            "precio Peso dolar": "5,07€\n",
+            "precio Peso euro": "5,07€\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Plátanos (1kg)",
+            "precio Peso Chileno": "860,00$\n",
+            "precio Peso dolar": "860,00$\n",
+            "precio Peso euro": "860,00$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Manzanas (1 kg) ",
+            "precio Peso Chileno": "1,22$\n",
+            "precio Peso dolar": "1,22$\n",
+            "precio Peso euro": "1,22$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Ternera (cadera o similar) (1kg)",
+            "precio Peso Chileno": "1,09€\n",
+            "precio Peso dolar": "1,09€\n",
+            "precio Peso euro": "1,09€\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Pechugas de pollo (1 kg) ",
+            "precio Peso Chileno": "730,00$\n",
+            "precio Peso dolar": "730,00$\n",
+            "precio Peso euro": "730,00$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Queso fresco (1 kg) ",
+            "precio Peso Chileno": "1,04$\n",
+            "precio Peso dolar": "1,04$\n",
+            "precio Peso euro": "1,04$\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Una docena de huevos ",
+            "precio Peso Chileno": "0,93€\n",
+            "precio Peso dolar": "0,93€\n",
+            "precio Peso euro": "0,93€\n",
+            "url": "https://preciosmundi.com/chile",
+            "fechaScrapy": "06-17-2019-12-51-01"
+        }
+    ]
+}

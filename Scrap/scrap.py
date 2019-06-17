@@ -10,8 +10,8 @@ paises = {}
 paises['pais'] = []
 
 
-pais = ['afganistan', 'albania', 'alemania', 'andorra','angola','arabia-saudita','argelia','argentina','armenia','australia','austria','bahrein','bangladesh','belgica','bielorrusia','bolivia','bosnia-y-herzegovina','brasil','bulgaria','butan','cabo-verde','camboya','camerun','canada','catar','chile','china','chipre','colombia','corea-del-sur','croacia','dinamarca','ecuador','egipto','el-salvador','emiratos-arabes-unidos','eslovaquia','eslovenia']
-#pais = ['afganistan','albania']
+#pais = ['afganistan', 'albania', 'alemania', 'andorra','angola','arabia-saudita','argelia','argentina','armenia','australia','austria','bahrein','bangladesh','belgica','bielorrusia','bolivia','bosnia-y-herzegovina','brasil','bulgaria','butan','cabo-verde','camboya','camerun','canada','catar','chile','china','chipre','colombia','corea-del-sur','croacia','dinamarca','ecuador','egipto','el-salvador','emiratos-arabes-unidos','eslovaquia','eslovenia']
+pais = ['chile']
 #product =['precios-supermercado','precio-restaurantes','precio-ropa-calzado','precio-transporte-servicios','precio-vivienda-salarios','precio-ocio-deportes']
 product = ['precios-supermercado']
 
@@ -35,6 +35,8 @@ for index in pais:
              'pagina': soup.title.text,
              'nombre': descripcionsuper.text,
              'precio Peso Chileno':preciosuper.text,
+             'precio Peso dolar':preciosuper.text,
+             'precio Peso euro':preciosuper.text,
              'url': url,
              'fechaScrapy': time.strftime("%m-%d-%Y-%H-%M-%S"),
             
