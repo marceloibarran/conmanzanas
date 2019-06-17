@@ -39,6 +39,25 @@ for index in pais:
                 precio_euro = tr_dato.find_all('td', class_='price')[2].get_text().strip()
                 cantidad = len(precio_euro)
                 precio_euro = precio_euro[:cantidad-1]
+                
+                data['Productos'].append({
+             
+                'pagina': soup.title.string,
+                'nombre': nombre,
+                'precio_peso': precio_peso,
+                'precio_dolar': precio_dolar,
+                'precio_euro': precio_euro,
+                'url': ur,
+                'fechaScrapy': time.strftime("%m/%d/%Y--%H:%M:%S"),
+            
+                                        })
+
+dir = os.path.dirname(os.path.abspath(__file__)) + '/data'
+
+file_name ='archivo__'+time.strftime("%m-%d-%Y-%H-%M-%S")+'.json'
+
+with open(os.path.join(dir, file_name), 'w') as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
 
 
 

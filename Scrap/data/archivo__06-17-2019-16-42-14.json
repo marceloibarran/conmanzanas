@@ -1,0 +1,508 @@
+{
+    "Productos": [
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "La cerveza importada (33 cl)",
+            "precio_peso": "1400,00",
+            "precio_dolar": "1,99",
+            "precio_euro": "1,77",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Cerveza nacional (0,5 litros)",
+            "precio_peso": "950,00",
+            "precio_dolar": "1,35",
+            "precio_euro": "1,20",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Botella de Vino (Calidad media)",
+            "precio_peso": "4000,00",
+            "precio_dolar": "5,68",
+            "precio_euro": "5,07",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Agua (1,5 litros)",
+            "precio_peso": "860,00",
+            "precio_dolar": "1,22",
+            "precio_euro": "1,09",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Lechuga (1 unidad)",
+            "precio_peso": "730,00",
+            "precio_dolar": "1,04",
+            "precio_euro": "0,93",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Cebollas (1kg)",
+            "precio_peso": "820,00",
+            "precio_dolar": "1,16",
+            "precio_euro": "1,04",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Patatas (1 kg)",
+            "precio_peso": "680,00",
+            "precio_dolar": "0,97",
+            "precio_euro": "0,86",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Tomates (1 kg)",
+            "precio_peso": "980,00",
+            "precio_dolar": "1,39",
+            "precio_euro": "1,24",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Naranjas (1 kg)",
+            "precio_peso": "880,00",
+            "precio_dolar": "1,25",
+            "precio_euro": "1,12",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Plátanos (1kg)",
+            "precio_peso": "790,00",
+            "precio_dolar": "1,12",
+            "precio_euro": "1,00",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Manzanas (1 kg)",
+            "precio_peso": "1000,00",
+            "precio_dolar": "1,42",
+            "precio_euro": "1,27",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Ternera (cadera o similar) (1kg)",
+            "precio_peso": "6300,00",
+            "precio_dolar": "8,95",
+            "precio_euro": "7,99",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Pechugas de pollo (1 kg)",
+            "precio_peso": "3500,00",
+            "precio_dolar": "4,97",
+            "precio_euro": "4,44",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Queso fresco (1 kg)",
+            "precio_peso": "6300,00",
+            "precio_dolar": "8,95",
+            "precio_euro": "7,99",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Una docena de huevos",
+            "precio_peso": "1800,00",
+            "precio_dolar": "2,56",
+            "precio_euro": "2,28",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Arroz (1kg)",
+            "precio_peso": "920,00",
+            "precio_dolar": "1,31",
+            "precio_euro": "1,17",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Un kilo de pan (1 kg)",
+            "precio_peso": "890,00",
+            "precio_dolar": "1,26",
+            "precio_euro": "1,13",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en supermercados en Chile 2019",
+            "nombre": "Leche (1 litro)",
+            "precio_peso": "780,00",
+            "precio_dolar": "1,11",
+            "precio_euro": "0,99",
+            "url": "https://preciosmundi.com/chile/precios-supermercado",
+            "fechaScrapy": "06/17/2019--16:42:10"
+        },
+        {
+            "pagina": "Precios en restaurantes en Chile 2019",
+            "nombre": "Agua (botella de 33 cl)",
+            "precio_peso": "670,00",
+            "precio_dolar": "0,95",
+            "precio_euro": "0,85",
+            "url": "https://preciosmundi.com/chile/precio-restaurantes",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios en restaurantes en Chile 2019",
+            "nombre": "Coca-Cola / Pepsi (botella de 33cl)",
+            "precio_peso": "790,00",
+            "precio_dolar": "1,12",
+            "precio_euro": "1,00",
+            "url": "https://preciosmundi.com/chile/precio-restaurantes",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios en restaurantes en Chile 2019",
+            "nombre": "Café Cappuccino",
+            "precio_peso": "1700,00",
+            "precio_dolar": "2,42",
+            "precio_euro": "2,16",
+            "url": "https://preciosmundi.com/chile/precio-restaurantes",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios en restaurantes en Chile 2019",
+            "nombre": "Cerveza importada (botella de 33cl)",
+            "precio_peso": "2900,00",
+            "precio_dolar": "4,12",
+            "precio_euro": "3,68",
+            "url": "https://preciosmundi.com/chile/precio-restaurantes",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios en restaurantes en Chile 2019",
+            "nombre": "Cerveza nacional (0,5 litros)",
+            "precio_peso": "2200,00",
+            "precio_dolar": "3,13",
+            "precio_euro": "2,79",
+            "url": "https://preciosmundi.com/chile/precio-restaurantes",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios en restaurantes en Chile 2019",
+            "nombre": "Menú de McDonalds, Burger King o similar",
+            "precio_peso": "4100,00",
+            "precio_dolar": "5,82",
+            "precio_euro": "5,20",
+            "url": "https://preciosmundi.com/chile/precio-restaurantes",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios en restaurantes en Chile 2019",
+            "nombre": "Comida para dos en restaurante a la carta (dos platos y postre)",
+            "precio_peso": "26800,00",
+            "precio_dolar": "38,07",
+            "precio_euro": "33,97",
+            "url": "https://preciosmundi.com/chile/precio-restaurantes",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios en restaurantes en Chile 2019",
+            "nombre": "Comida en un restaurante barato (menú del día)",
+            "precio_peso": "5000,00",
+            "precio_dolar": "7,10",
+            "precio_euro": "6,34",
+            "url": "https://preciosmundi.com/chile/precio-restaurantes",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios de ropa y calzado en Chile 2019",
+            "nombre": "Unos zapatos de hombre de cuero",
+            "precio_peso": "55300,00",
+            "precio_dolar": "78,56",
+            "precio_euro": "70,10",
+            "url": "https://preciosmundi.com/chile/precio-ropa-calzado",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios de ropa y calzado en Chile 2019",
+            "nombre": "Unas zapatillas deportivas de marca (Nike, Adidas, Puma, etc.)",
+            "precio_peso": "42200,00",
+            "precio_dolar": "59,95",
+            "precio_euro": "53,50",
+            "url": "https://preciosmundi.com/chile/precio-ropa-calzado",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios de ropa y calzado en Chile 2019",
+            "nombre": "Un vestido (Zara, H&M, etc.)",
+            "precio_peso": "21400,00",
+            "precio_dolar": "30,40",
+            "precio_euro": "27,13",
+            "url": "https://preciosmundi.com/chile/precio-ropa-calzado",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios de ropa y calzado en Chile 2019",
+            "nombre": "Unos vaqueros Levis 501 (o equivalente)",
+            "precio_peso": "35200,00",
+            "precio_dolar": "50,01",
+            "precio_euro": "44,62",
+            "url": "https://preciosmundi.com/chile/precio-ropa-calzado",
+            "fechaScrapy": "06/17/2019--16:42:11"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Volkswagen Golf 1.4 90 KW (o un automóvil nuevo equivalente)",
+            "precio_peso": "11915800,00",
+            "precio_dolar": "16928,28",
+            "precio_euro": "15105,14",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:12"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Gasolina (1 litro)",
+            "precio_peso": "810,00",
+            "precio_dolar": "1,15",
+            "precio_euro": "1,03",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:12"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Taxi 1 hora de trayecto (tarifa normal)",
+            "precio_peso": "7700,00",
+            "precio_dolar": "10,94",
+            "precio_euro": "9,76",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:12"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Taxi 1km (tarifa normal)",
+            "precio_peso": "990,00",
+            "precio_dolar": "1,41",
+            "precio_euro": "1,25",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:12"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Inicio taxi (tarifa normal)",
+            "precio_peso": "300,00",
+            "precio_dolar": "0,43",
+            "precio_euro": "0,38",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Pase mensual de transporte público",
+            "precio_peso": "33700,00",
+            "precio_dolar": "47,88",
+            "precio_euro": "42,72",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Un billete de ida en transporte público",
+            "precio_peso": "690,00",
+            "precio_dolar": "0,98",
+            "precio_euro": "0,87",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Internet (50 Mbps o más, tarifa plana, Cable / ADSL)",
+            "precio_peso": "26200,00",
+            "precio_dolar": "37,22",
+            "precio_euro": "33,21",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "1 min. de la Tarifa de prepago móvil local (no hay descuentos o planes)",
+            "precio_peso": "79,00",
+            "precio_dolar": "0,11",
+            "precio_euro": "0,10",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de transportes y servicios en Chile 2019",
+            "nombre": "Básicos (electricidad, gas, agua, basura)",
+            "precio_peso": "79200,00",
+            "precio_dolar": "112,52",
+            "precio_euro": "100,40",
+            "url": "https://preciosmundi.com/chile/precio-transporte-servicios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de vivienda y salarios en Chile 2019",
+            "nombre": "Comprar vivienda en las afueras de la ciudad (precio por m2)",
+            "precio_peso": "1320600,00",
+            "precio_dolar": "1876,12",
+            "precio_euro": "1674,07",
+            "url": "https://preciosmundi.com/chile/precio-vivienda-salarios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de vivienda y salarios en Chile 2019",
+            "nombre": "Comprar vivienda en el centro de la ciudad (precio por m2)",
+            "precio_peso": "1541800,00",
+            "precio_dolar": "2190,37",
+            "precio_euro": "1954,47",
+            "url": "https://preciosmundi.com/chile/precio-vivienda-salarios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de vivienda y salarios en Chile 2019",
+            "nombre": "Vivienda (3 habitaciones) en las afueras",
+            "precio_peso": "458400,00",
+            "precio_dolar": "651,23",
+            "precio_euro": "581,09",
+            "url": "https://preciosmundi.com/chile/precio-vivienda-salarios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de vivienda y salarios en Chile 2019",
+            "nombre": "Vivienda (3 habitaciones) en centro de la ciudad",
+            "precio_peso": "542300,00",
+            "precio_dolar": "770,42",
+            "precio_euro": "687,45",
+            "url": "https://preciosmundi.com/chile/precio-vivienda-salarios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de vivienda y salarios en Chile 2019",
+            "nombre": "Apartamento (1 dormitorio) en las afueras",
+            "precio_peso": "263500,00",
+            "precio_dolar": "374,34",
+            "precio_euro": "334,03",
+            "url": "https://preciosmundi.com/chile/precio-vivienda-salarios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de vivienda y salarios en Chile 2019",
+            "nombre": "Apartamento (1 dormitorio) en el centro de la ciudad",
+            "precio_peso": "311900,00",
+            "precio_dolar": "443,10",
+            "precio_euro": "395,38",
+            "url": "https://preciosmundi.com/chile/precio-vivienda-salarios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de vivienda y salarios en Chile 2019",
+            "nombre": "Hipoteca: tasa de interés anual (%)",
+            "precio_peso": "4,05",
+            "precio_dolar": "4,05",
+            "precio_euro": "4,05",
+            "url": "https://preciosmundi.com/chile/precio-vivienda-salarios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios de vivienda y salarios en Chile 2019",
+            "nombre": "Salario (sueldo mensual) medio después de impuestos (neto)",
+            "precio_peso": "541200,00",
+            "precio_dolar": "768,86",
+            "precio_euro": "686,06",
+            "url": "https://preciosmundi.com/chile/precio-vivienda-salarios",
+            "fechaScrapy": "06/17/2019--16:42:13"
+        },
+        {
+            "pagina": "Precios relacionados con ocio y deporte en Chile 2019",
+            "nombre": "Unas zapatillas deportivas de marca (Nike, Adidas, Puma, etc.)",
+            "precio_peso": "42200,00",
+            "precio_dolar": "59,95",
+            "precio_euro": "53,50",
+            "url": "https://preciosmundi.com/chile/precio-ocio-deportes",
+            "fechaScrapy": "06/17/2019--16:42:14"
+        },
+        {
+            "pagina": "Precios relacionados con ocio y deporte en Chile 2019",
+            "nombre": "Alquiler de pista de tenis  (1 hora)",
+            "precio_peso": "13200,00",
+            "precio_dolar": "18,75",
+            "precio_euro": "16,73",
+            "url": "https://preciosmundi.com/chile/precio-ocio-deportes",
+            "fechaScrapy": "06/17/2019--16:42:14"
+        },
+        {
+            "pagina": "Precios relacionados con ocio y deporte en Chile 2019",
+            "nombre": "Gimnasio (precio por mes)",
+            "precio_peso": "25200,00",
+            "precio_dolar": "35,80",
+            "precio_euro": "31,94",
+            "url": "https://preciosmundi.com/chile/precio-ocio-deportes",
+            "fechaScrapy": "06/17/2019--16:42:14"
+        },
+        {
+            "pagina": "Precios relacionados con ocio y deporte en Chile 2019",
+            "nombre": "Cine (una entrada / ticket)",
+            "precio_peso": "5000,00",
+            "precio_dolar": "7,10",
+            "precio_euro": "6,34",
+            "url": "https://preciosmundi.com/chile/precio-ocio-deportes",
+            "fechaScrapy": "06/17/2019--16:42:14"
+        },
+        {
+            "pagina": "Precios relacionados con ocio y deporte en Chile 2019",
+            "nombre": "Paquete de cigarrillos (Marlboro)",
+            "precio_peso": "3500,00",
+            "precio_dolar": "4,97",
+            "precio_euro": "4,44",
+            "url": "https://preciosmundi.com/chile/precio-ocio-deportes",
+            "fechaScrapy": "06/17/2019--16:42:14"
+        },
+        {
+            "pagina": "Precios relacionados con ocio y deporte en Chile 2019",
+            "nombre": "Coca-Cola / Pepsi (botella de 33cl)",
+            "precio_peso": "790,00",
+            "precio_dolar": "1,12",
+            "precio_euro": "1,00",
+            "url": "https://preciosmundi.com/chile/precio-ocio-deportes",
+            "fechaScrapy": "06/17/2019--16:42:14"
+        },
+        {
+            "pagina": "Precios relacionados con ocio y deporte en Chile 2019",
+            "nombre": "Cerveza importada (botella de 33cl)",
+            "precio_peso": "2900,00",
+            "precio_dolar": "4,12",
+            "precio_euro": "3,68",
+            "url": "https://preciosmundi.com/chile/precio-ocio-deportes",
+            "fechaScrapy": "06/17/2019--16:42:14"
+        },
+        {
+            "pagina": "Precios relacionados con ocio y deporte en Chile 2019",
+            "nombre": "Cerveza nacional (0,5 litros)",
+            "precio_peso": "2200,00",
+            "precio_dolar": "3,13",
+            "precio_euro": "2,79",
+            "url": "https://preciosmundi.com/chile/precio-ocio-deportes",
+            "fechaScrapy": "06/17/2019--16:42:14"
+        }
+    ]
+}
