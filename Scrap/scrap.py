@@ -10,42 +10,37 @@ paises = {}
 paises['pais'] = []
 
 
-#pais = ['afganistan', 'albania', 'alemania', 'andorra','angola','arabia-saudita','argelia','argentina','armenia','australia','austria','bahrein','bangladesh','belgica','bielorrusia','bolivia','bosnia-y-herzegovina','brasil','bulgaria','butan','cabo-verde','camboya','camerun','canada','catar','chile','china','chipre','colombia','corea-del-sur','croacia','dinamarca','ecuador','egipto','el-salvador','emiratos-arabes-unidos','eslovaquia','eslovenia']
+
+
 pais = ['chile']
-#product =['precios-supermercado','precio-restaurantes','precio-ropa-calzado','precio-transporte-servicios','precio-vivienda-salarios','precio-ocio-deportes']
-product = ['precios-supermercado']
+product =['precios-supermercado','precio-restaurantes','precio-ropa-calzado','precio-transporte-servicios','precio-vivienda-salarios','precio-ocio-deportes']
 
 for index in pais:
         
     url = 'https://preciosmundi.com/'+index
     for i in product:
         ur = url+'/'+i
-        print(ur)
         r = requests.get(ur)
-        soup = BeautifulSoup(r.content)
-        
-        for b in range(0,15):
-            descripcionsuper = soup.find_all('td',class_='product-name')[b]
-            preciosuper = soup.find_all('td',class_='price')[b]
-            
-                
-            
-            data['Productos'].append({
-             
-             'pagina': soup.title.text,
-             'nombre': descripcionsuper.text,
-             'precio Peso Chileno':preciosuper.text,
-             'precio Peso dolar':preciosuper.text,
-             'precio Peso euro':preciosuper.text,
-             'url': url,
-             'fechaScrapy': time.strftime("%m-%d-%Y-%H-%M-%S"),
-            
-            }) 
-dir = os.path.dirname(os.path.abspath(__file__)) + '/data'
 
-file_name ='archivo__'+time.strftime("%m-%d-%Y-%H-%M-%S")+'.json'
+        soup = BeautifulSoup(r.content, "html.parser")
+        tbody_total = soup.find_all('tbody')
 
-with open(os.path.join(dir, file_name), 'w') as file:
-        json.dump(data, file, indent=4, ensure_ascii=False)
+        for tbody in tbody_total:
+            tr_tabla = tbody.find_all('tr')
 
-        
+            for tr_dato in tr_tabla:
+                nombre = tr_dato.find('td', class_='product-name').get_text().strip()
+                precio_peso = tr_dato.find_all('td', class_='price')[0].get_text().strip()
+                cantidad = len(precio_peso)
+                precio_peso = precio_peso[:cantidad-1]
+                precio_dolar = tr_dato.find_all('td', class_='price')[1].get_text().strip()
+                cantidad = len(precio_dolar)
+                precio_dolar= precio_dolar[:cantidad-1]
+                precio_euro = tr_dato.find_all('td', class_='price')[2].get_text().strip()
+                cantidad = len(precio_euro)
+                precio_euro = precio_euro[:cantidad-1]
+
+
+
+
+
