@@ -12,7 +12,7 @@ paises['pais'] = []
 
 
 
-paises = ['afganistan','albania','alemania','chile','peru','bolivia']
+paises = ['afganistan','albania','alemania','andorra','angola','arabia.saudita','argelia','argentina','armenia','australia','austria','bahrein','bangladesh','belgica','bielorrusia','bolivia','bosnia-herzegovina','brasil','bulgaria','butan','cabo-verde','camboya','camerun','canada','catar','chile','china','chipre','colombia','corea-del-sur','costa-rica','croacia','dinamarca','ecuador','peru']
 product =['precios-supermercado','precio-restaurantes','precio-ropa-calzado','precio-transporte-servicios','precio-vivienda-salarios','precio-ocio-deportes']
 paises_3 = ['afganistan','albania','chile', 'argentina']
 for pais in paises:
