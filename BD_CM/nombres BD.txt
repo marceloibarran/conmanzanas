@@ -1,3 +1,6 @@
+DESCRIPCION DE DONBRES BD
+
+
 bscon=bienes y servicios de consumo
 
 nomc=nombre bien y servicio de consumo
