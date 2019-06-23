@@ -1,5 +1,5 @@
 from django.db import models
-
+'''
 class bienesyservicios(models.Model):
     idbs = models.PositiveIntegerField(primary_key=True)
     nombrebs  = models.TextField(max_length=250)
@@ -38,4 +38,4 @@ class tipocambio(models.Model):
     id_cambio = models.PositiveIntegerField(primary_key=True)
     nombrecamp = models.TextField(max_length=20)
 
-
+'''
