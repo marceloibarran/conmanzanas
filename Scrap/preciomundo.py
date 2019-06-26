@@ -8,7 +8,7 @@ paises = ['chile']
 product = ['precios-supermercado']
 
 #diccionario de paises con tipo de moneda peso
-lista_pais_peso = {'chile':'Peso Chileno', 'argentina': 'Peso Argentino', 'uruguay': 'Peso Uruguayo', 'mexico': 'Peso Mexicano' }
+lista_pais_peso = {'chile':'Peso Chileno', 'argentina': 'Peso Argentino', 'uruguay': 'Peso Uruguayo', 'mexico': 'Peso Mexicano'}
 validador = 0
 
 #funcion que obtiene el tipo de moneda
@@ -65,7 +65,7 @@ for pais in paises:
 
         soup = BeautifulSoup(r.content, "html.parser")
         fecha_actualizacion_final = fecha_actializacion(soup.find('p').get_text().strip())
-        print(fecha_actualizacion_final)
+
 
         tbody_total = soup.find_all('tbody')
 
