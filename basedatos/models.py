@@ -15,10 +15,10 @@ class Bienesyservicios(models.Model):
    class Meta:
        verbose_name = "Bienesyservicios"
        verbose_name_plural = 'Bienesyservicios'
-       ordering = ["idbs"]
+       ordering = ["nombrebs"]
 
    def __str__(self):
-       return self.idpais
+       return self.nombrebs
 
 
 class Region(models.Model):
@@ -32,11 +32,11 @@ class Region(models.Model):
        ordering = ["idreg"]
 
    def __str__(self):
-       return self.idpais
+       return self.nombreg
 
 class Pais(models.Model):
    idpais = models.AutoField(primary_key=True,verbose_name="ID Pais")
-   nombrep = models.TextField(max_length=100,blank=False,verbose_name="Nombre Pais")
+   nombrep = models.TextField(max_length=200,verbose_name="Nombre Pais")
 
    class Meta:
        verbose_name = "Pais"
@@ -44,7 +44,7 @@ class Pais(models.Model):
        ordering = ["idpais"]
 
    def __str__(self):
-       return self.idpais
+       return self.nombrep
 
 class Subcategoria(models.Model):
    idsubc = models.AutoField(primary_key=True)
@@ -76,3 +76,12 @@ class Categoria(models.Model):
 class Tipocambio(models.Model):
    id_cambio = models.AutoField(primary_key=True)
    nombrecamp = models.TextField(max_length=20,verbose_name="Moneda")
+
+
+   class Meta:
+       verbose_name = "Tipocambio"
+       verbose_name_plural = 'Tipocambio'
+       ordering = ["id_cambio"]
+
+   def __str__(self):
+       return self.nombrecamp
