@@ -84,17 +84,15 @@ for pais in paises:
                 precio_peso = tr_dato.find_all('td', class_='price')[0].get_text().strip()
                 cantidad = len(precio_peso)
                 precio_peso = precio_peso[:cantidad - 1]
-
                 fecha_obtencion_dato = date.today()
-                now = datetime.now()
-                hora_obtencion = now.strftime("%H:%M:%S")
+                fuente = ur
 
                 print(nombre)
                 print(precio_peso)
                 print(tipo_valor_filtrado)
                 print(fecha_actualizacion_final+' fecha de actualizacion')
                 print(fecha_obtencion_dato)
-                print(hora_obtencion)
+                print(fuente)
                 print('-----------')
 
 
