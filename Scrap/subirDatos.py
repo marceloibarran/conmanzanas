@@ -4,7 +4,7 @@ def Subir_Paises():
     paises = json.load(open('file.json'))
     for pais in paises:
         paist= pais['Pais']
-        con = sqlite3.connect('/home/jaimemor/Escritorio/Taller/Proyecto/conmanzanas/Scrap/db.sqlite3')
+        con = sqlite3.connect('C:/Users/Marc/Desktop/CONMANZANAS/conmanzanas/db.sqlite3')
         cursor = con.cursor()
         sql = "INSERT INTO basedatos_pais(idpais, nombrep) VALUES(Null,'"+paist+"')"
         cursor.execute(sql)
@@ -14,6 +14,8 @@ def Subir_Paises():
         cursor.execute("""INSERT INTO basedatos_region VALUES(?,?,?)""", (reg_id ,regiont, pais_id));
         con.commit()
         con.close()
+
+
 
 
 
