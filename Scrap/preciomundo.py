@@ -4,7 +4,7 @@ from datetime import datetime, date
 
 
 
-paises = ['chile']
+paises = ['afganistan','albania','alemania','andorra','angola','arabia.saudita','argelia','argentina','armenia','australia','austria','bahrein','bangladesh','belgica','bielorrusia','bolivia','bosnia-herzegovina','brasil','bulgaria','butan','cabo-verde','camboya','camerun','canada','catar','chile','china','chipre','colombia','corea-del-sur','costa-rica','croacia','dinamarca','ecuador','egipto','el-salvador','emiratos-arabes-unidos','eslovaquia','eslovenia','españa','estados-unidos','estonia','filipinas','finlandia','francia','georgia','ghana','grecia','guatemala','haiti','hong-kong','hungria','india','indonesia','irak','iran','irlanda','islandia','israel','italia','jamaica','japon','jordania','kazajstan','kenia','']
 product = ['precios-supermercado']
 
 #diccionario de paises con tipo de moneda peso
