@@ -11,7 +11,7 @@ def Subir_Paises():
         pais_id = cursor.lastrowid
         regiont = pais['Continente']
         reg_id = cursor.lastrowid
-        cursor.execute("""INSERT INTO basedatos_region VALUES(?,?,?)""", (reg_id ,regiont, pais_id));
+        cursor.execute("""INSERT INTO basedatos_region VALUES(?,?,?)""", (None, pais_id, regiont));
         con.commit()
         con.close()
 
