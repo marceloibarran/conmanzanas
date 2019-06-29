@@ -4,9 +4,9 @@ from datetime import datetime, date
 
 
 
-paises = ['afganistan','albania','alemania','andorra','angola','arabia.saudita','argelia','argentina','armenia','australia','austria','bahrein','bangladesh','belgica','bielorrusia','bolivia','bosnia-herzegovina','brasil','bulgaria','butan','cabo-verde','camboya','camerun','canada','catar','chile','china','chipre','colombia','corea-del-sur','costa-rica','croacia','dinamarca','ecuador','egipto','el-salvador','emiratos-arabes-unidos','eslovaquia','eslovenia','españa','estados-unidos','estonia','filipinas','finlandia','francia','georgia','ghana','grecia','guatemala','haiti','hong-kong','hungria','india','indonesia','irak','iran','irlanda','islandia','israel','italia','jamaica','japon','jordania','kazajstan','kenia','kuwait','laos','letonia','libano','libia','lituania','luxemburgo','madagascar','malasia','malta','marruecos','mauricio','mexico','moldavia','monaco','mongolia','montenegro','namibia','nepal','nicaragua','niger','nigeria','noruega','nueva-zelandia','oman','paises-bajos','pakistan','panama','paraguay','peru','polonia','portugal','puerto-rico','reino-unido','republica-checa','republica-dominicana','ruanda','rumania','rusia','snegal','serbia','singapur','siria','sri-lanka','sudafrica','sudan','suecia','suiza','tailandia','taiwan','tanzania','tunez','turquia','ucrania','uganda','uruguay','uzbekistan', 'vietnam', 'yemen','zambia','zimbabue']
-product = ['precios-supermercado','precio-restaurantes','precio-ropa-calzado','precio-transporte-servicios','precio-vivienda-salarios','precio-ocio-deportes']
-
+#paises = ['afganistan','albania','alemania','andorra','angola','arabia-saudita','argelia','argentina','armenia','australia','austria','bahrein','bangladesh','belgica','bielorrusia','bolivia','bosnia-herzegovina','brasil','bulgaria','butan','cabo-verde','camboya','camerun','canada','catar','chile','china','chipre','colombia','corea-del-sur','costa-rica','croacia','dinamarca','ecuador','egipto','el-salvador','emiratos-arabes-unidos','eslovaquia','eslovenia','españa','estados-unidos','estonia','filipinas','finlandia','francia','georgia','ghana','grecia','guatemala','haiti','hong-kong','hungria','india','indonesia','irak','iran','irlanda','islandia','israel','italia','jamaica','japon','jordania','kazajstan','kenia','']
+product = ['precios-supermercado']
+paises= ['peru']
 #diccionario de paises con tipo de moneda peso
 lista_pais_peso = {'chile':'Peso Chileno', 'argentina': 'Peso Argentino', 'uruguay': 'Peso Uruguayo', 'mexico': 'Peso Mexicano'}
 validador = 0
@@ -46,6 +46,18 @@ def fecha_actializacion(fecha):
     return fecha_final
     pass
 
+def pulir_precio(precio):
+    precio_new = precio.replace(',','')
+    r = 'False'
+    v = 0
+    while str(r) == 'False':
+        v = v + 1
+        r = precio_new.isdigit()
+        precio_new = precio_new[0:len(precio_new)-1]
+
+    return precio_new
+
+
 for pais in paises:
 
     for pais_lista in lista_pais_peso:
@@ -81,19 +93,21 @@ for pais in paises:
             for tr_dato in tr_tabla:
 
                 nombre = tr_dato.find('td', class_='product-name').get_text().strip()
-                precio_peso = tr_dato.find_all('td', class_='price')[0].get_text().strip()
-                cantidad = len(precio_peso)
-                precio_peso = precio_peso[:cantidad - 1]
+                precio = pulir_precio(tr_dato.find_all('td', class_='price')[0].get_text().strip())
                 fecha_obtencion_dato = date.today()
                 fuente = ur
 
                 print(nombre)
-                print(precio_peso)
+                print(precio)
                 print(tipo_valor_filtrado)
                 print(fecha_actualizacion_final+' fecha de actualizacion')
                 print(fecha_obtencion_dato)
                 print(fuente)
                 print('-----------')
+
+
+
+
 
 
 
