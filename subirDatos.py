@@ -1,20 +1,32 @@
 import sqlite3
 import json
+def ac(name):
+    name = name.replace('á','a')
+    name = name.replace('é', 'e')
+    name = name.replace('í', 'i')
+    name = name.replace('ó', 'o')
+    name = name.replace('ú', 'u')
+    return (name)
 def Subir_Paises():
-    paises = json.load(open('file.json'))
+    paises = json.load(open('/home/jaimemor/Escritorio/Taller/git/conmanzanas/file.json'))
     for pais in paises:
-        paist= pais['Pais']
-        con = sqlite3.connect('/home/jaimemor/Escritorio/Taller/Proyecto/conmanzanas/db.sqlite3')
+        con = sqlite3.connect('/home/jaimemor/Escritorio/Taller/git/conmanzanas/db.sqlite3')
         cursor = con.cursor()
-        sql = "INSERT INTO basedatos_pais(idpais, nombrep) VALUES(Null,'"+paist+"')"
-        cursor.execute(sql)
-        pais_id = cursor.lastrowid
-        regiont = pais['Continente']
-        reg_id = cursor.lastrowid
-        cursor.execute("""INSERT INTO basedatos_region VALUES(?,?,?)""", (None, pais_id, regiont));
-        con.commit()
-        con.close()
 
+        sql="SELECT nombrep FROM basedatos_pais"
+        s=cursor.execute(sql)
+        regiont = ac(pais['Continente'].lower())
+        pa= ac(pais['Pais'].lower())
+        for a in s:
+            b= a[0]
+
+            if b == pa:
+                print("pase")
+                v=cursor.execute("SELECT idpais FROM basedatos_pais")
+                for vv in v:
+                    g=vv[0]
+                    ins = """"INSERT INTO basedatos_region VALUES(?,?,?)""", (None, g, regiont)
+                    cursor.execute(ins)
 
 
 
