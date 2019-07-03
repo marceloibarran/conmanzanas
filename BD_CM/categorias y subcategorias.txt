@@ -1,29 +1,29 @@
 salud:
 medicamento
-infraestructura salud
+infraestructura salud  git
 servicios
 insumos
 
-supermercado
+supermercado --pm
 
 educacion:
 infraestructura educacion
 costo educacion
 
 vivienda:
-vivienda y salario
+vivienda y salario  --pm
 articulos para el hogar
 gastos de vivienda
 
 otros:
-ropa y calazado
-ocio y deportes
+ropa y calazado --pm
+ocio y deportes   --pm
 recreacion y cultura
 
 transporte:
-transprte y servicio
+transprte y servicio --pm
 medios de transporte
 
 restaurant y hoteles:
-precio restaurant 
+precio restaurant --pm
 precio hoteles
